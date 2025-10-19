@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 #include <vector>
+#include "product.h"
 
 class product {
 public:
