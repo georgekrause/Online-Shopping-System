@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 #include <vector>
-#include "product.h"
 
 class product {
 public:
@@ -55,6 +54,7 @@ int main() {
     cart.add_product(product("Keyboard", 45.00, 1));
 
     cart.display_cart();
+    system("pause");
 
     return 0;
 }
